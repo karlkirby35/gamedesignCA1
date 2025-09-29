@@ -1,0 +1,35 @@
+# Ignore user-specific files
+*.suo
+*.user
+*.userprefs
+*.sln.docstates
+
+# Ignore build folders and temp caches
+[Bb]inaries/
+[Bb]uild/
+DerivedDataCache/
+Intermediate/
+Saved/
+
+# Ignore config/log/editor settings
+*.log
+.vs/
+.vscode/
+
+# Ignore compiled data
+*.pdb
+*.dll
+*.exe
+
+# Ignore generated project files (can be recreated)
+*.xcodeproj
+*.xcworkspace
+*.sln
+*.opensdf
+*.sdf
+*.VC.db
+
+# Keep source/content/config so your game is preserved
+!Content/
+!Config/
+!Source/
